@@ -1,7 +1,9 @@
 <html>
+{% load staticfiles%}
 <head>
-<title>Informacio de la Base de Dades</title>
-	</head>
+	<title>Informacio de la Base de Dades</title>
+	<link rel="stylesheet" type="text/css" href="{% static "style.css" %}" media="screen" />
+</head>
 	<body>
 	<h1> existens</h1>
 	{% if titulacio %}
